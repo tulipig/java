@@ -298,7 +298,7 @@ public class TestJavaFeature {
 
         //不需要重新构建string对象，比String快，线程不安全
         StringBuffer c = new StringBuffer();
-        c.append("1").append("2").append("3").append("5");
+        c.append("1").append("2").append("3").append("5").append("6");
         log.info(c.toString());
     }
 
