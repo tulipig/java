@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+car:
+  brand: BYD
+  price: 100000
+
+computer:
+  brand: APPLE
+  price: 20000
